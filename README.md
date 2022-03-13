@@ -1,7 +1,7 @@
 # MODULE-2-VBA: Stock Analyses using VBA Excel Macro
 
 ## Overview of Project
-The parents of Steve asked for help in determining whether their investment plan was appropriately set on one company, "DQ". They had chosen this company because it produces "green" energy. We are attempting to broaden their outlook by analyzing starting and ending prices on stocks of 11 other companies.
+Steve's parents have been investing in a "green" company that they felt were the best investment. Steve, on the other hand, is not certain that they had all the facts at hand to make a good determination. He asked for help in analyzing whether their investment plan was appropriately set on the best company, "DQ" (DAQO New Energy Corp.). They had chosen this company because it produces "green" energy and they have a high interest in supporting sustainable energy sources that do not affect the environment negatively. We are attempting to broaden their outlook by analyzing starting and ending prices on stocks of 11 other companies.
 
 
 ## Results
