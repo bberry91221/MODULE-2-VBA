@@ -40,14 +40,15 @@ The companies that were chosen to compare to DQ are listed below together with t
 
 From the years 2017 and 2018 for the 12 companies, you can see in the tables below that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on shareholders' stocks. 
 
-![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG) ![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
+![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)  ![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
+
+As signified by cells with a green background, for the year 2017, the Return column has all positive gains in stock price except for TERP (Terraform). It begs the question about what was happening business-wise that would cause 11 out of 12 solar energy companies to post gains. For the top 3 companies, this information was found online.
+
+For the "wide" view of stock performance, "Renewable energy once again achieved record increases in capacity in 2017," (from [Green_Tech_Media.com](https://www.greentechmedia.com/articles/read/2017-another-record-busting-year-for-global-renewable-energy-capacity). From another, well-respected source, REN21 is the only global renewable energy community of scientists, governments, NGOs and industrial experts providing insights into the need of renewable energy. They provide up-to-date and peer-reviewed facts, figures and analysis of global developments in technology, policies and markets. Their goal is to enable decision-makers around the world to make the shift to renewable energy happen – now before it is too late. from: [REN21](https://www.ren21.net/about-us/who-we-are/)
+
+The worst performing stock was with **Terraform** but they were also the only company that is not wholly providing equipment or components for solar power. This company is a subsidiary of SunEdison which has had financial troubles since April 2016 (including having to file for Chapter 11 bankruptcy) . In July 2017, the U.S. Bankruptcy Court[120] approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from [SunEdison_Wikipedia](https://en.wikipedia.org/wiki/SunEdison).
 
 
-------------------
-
-Finally, run the stock analysis, then confirm that your stock analysis outputs for 2017 and 2018 are the same as they were in the module (as shown in the images below). In your Resources folder, save the pop-up messages showing elapsed run time for the refactored code as VBA_Challenge_2017.png and VBA_Challenge_2018.png. Then, save the changes to your workbook.
-
-The table is a lot easier to read now, but it's still difficult to determine at a glance which stocks performed well and which ones did not. Let's format our data so that Steve can determine stock performance at a glance.
 
 Daqo dropped over 63% in 2018—yikes! Steve will definitely want to offer some better stocks to his parents.
 
@@ -70,6 +71,8 @@ The Return column has all positive gains in stock price except for TERP (Terrafo
 
 **Terraform** - only company that is not wholly providing equipment or components for solar power. 
 
+![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG) ![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
+timers??
 This company is a subsidiary of SunEdison which has had financial troubles (including having to file for Chapter 11) since April 2016. In July 2017, the U.S. Bankruptcy Court[120] approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from https://en.wikipedia.org/wiki/SunEdison
 
 "Renewable energy once again achieved record increases in capacity in 2017," (from https://www.greentechmedia.com/articles/read/2017-another-record-busting-year-for-global-renewable-energy-capacity)
