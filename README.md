@@ -7,20 +7,20 @@ The above image is an example of the newest form of energy being developed curre
 # MODULE-2-VBA: Stock Analyses using VBA Excel Macro
 
 
-## Overview of Project
-Steve's parents have been investing since 2017 in a "green" company that they felt were the best investment. Steve, on the other hand, is not certain that they had all the facts at hand to make a good determination. He asked for help in analyzing whether their investment plan was appropriately set on the best company which would give the highest rate of return over time. The company Steve's parents chose has the NYSE ticker or stock symbol "DQ" (DAQO New Energy Corp.). They had chosen this company because it produces "green" energy which they are highly interested in. Their goal is to support sustainable energy sources that do not affect the environment negatively. To broaden Steve's parent's perspectives, it was not enough to just compare DQ's returns for 2017 and 2018. Calculating the stock performance by using the annualized Total Return will show the financial gain (or loss) in their stock price. Another indicator of general investor interest is to compare the Total Volume, i.e., the number of stocks traded per year. Taking this analysis further, collecting this information for all 11 remaining companies will lend a good comparison, especially if these companies also share production of similar solar products and equipment. Using this data for both 2017 and 2018 will depict a more broad picture of the growth potential for solar energy products across all 12 companies, including DQ.
+## I. Overview of Project
+Steve's parents have been investing since 2017 in a "green" company that they felt was the best investment. Steve, on the other hand, is not certain that they had all the facts at hand to make a good determination. He asked for help in analyzing whether their investment plan was appropriately set on the best company which would give the highest rate of return over time. The company Steve's parents chose has the NYSE ticker or stock symbol "DQ" (DAQO New Energy Corp.). They had chosen this company because it produces "green" energy which they are highly interested in. Their goal is to support sustainable energy sources that do not affect the environment negatively. To broaden Steve's parent's perspectives, it was not enough to just compare DQ's returns for 2017 and 2018. Calculating the stock performance by using the annualized Total Return will show the financial gain (or loss) in their stock price. Another indicator of general investor interest is to compare the Total Volume, i.e., the number of stocks traded per year. Taking this analysis further, collecting this information for all 11 remaining companies will lend a good comparison, especially if these companies also share production of similar solar products and equipment. Using this data for both 2017 and 2018 will depict a more broad picture of the growth potential for solar energy products across all 12 companies, including DQ.
 
 
-## Results
+## II. Results
 As mentioned above, there are three characteristics we will be analyzing across all 12 companies:
     1. The Total Return of the stocks was collected daily and included in the provided database. Taking each price at the opening of trading and subtracting the ending price at the end of the day was compiled across the entire year for each stock. This number was converted to a percentage and placed in the tables below for each year showing the gains (cell background is green) and losses (cell background is red) for each company. 
     2. Also, the other charactertistic we focused on was on the Total Volume of trades summed up by each company for each year to mark the interest in the investor pool out in the general, potential stockholders' public.
     3. We also wished to see the performance of the macros by 2 methods of calculation used, i.e., running the calculations linearly (calculating each company's numbers, one at a time) and using a method with embedded arrays to calculate each characteristic all at once across all 12 companies. 
 
 
-### How the Analyses Were Completed: Daily Closing Stock Prices
+### A. How the Analyses Were Completed: Daily Closing Stock Prices
 
-The companies that were chosen to compare to DQ are listed below together with their rank in Total Returns for 2017.
+The companies that were chosen to compare to DQ are listed below together with their rank in highest Total Returns for 2017.
 
 |Return %|Rank|Ticker|Full Company Name|
 |--------|----|------|-----------------|
@@ -38,13 +38,12 @@ The companies that were chosen to compare to DQ are listed below together with t
 |--------|----| VSLR |Vivint Solar|
 
 
-From the years 2017 and 2018 for the 12 companies, you can see in the tables below that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive Return on shareholders' stocks. 
+From the years 2017 and 2018 for the 12 companies, you can see in the tables below that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on shareholders' stocks. 
 
 ![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG) ![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
 
 
 ------------------
-so you loop through the data one time and collect all of the information. Your refactored code should run faster than it did in this module. DO TIMER on old codemeasure performance
 
 Finally, run the stock analysis, then confirm that your stock analysis outputs for 2017 and 2018 are the same as they were in the module (as shown in the images below). In your Resources folder, save the pop-up messages showing elapsed run time for the refactored code as VBA_Challenge_2017.png and VBA_Challenge_2018.png. Then, save the changes to your workbook.
 
