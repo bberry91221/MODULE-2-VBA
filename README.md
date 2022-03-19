@@ -20,27 +20,32 @@ As mentioned above, there are three characteristics we will be analyzing across 
 
 ### A. How the Analyses Were Completed: Daily Closing Stock Prices
 
+We collected stock prices across 12 solar energy companies for 2 years (2017 and 2018). The returns were calculated by subtracting the Closing price from the Closing stock price for each day of trading for each of these years. Here is the portion of the macro code which calculated these numbers.
+
+![how_to_calculate_annual_return_per_stock.PNG](Resources/how_to_calculate_annual_return_per_stock.PNG)
+
+
 The companies that were chosen to compare to DQ are listed below together with their rank in highest Total Returns for 2017.
 
-|Return %|Rank|Ticker|Full Company Name|
-|--------|----|------|-----------------|
-|--------|----|  AY  |Atlantica Sustainable Infrastructure|
-|--------|----|  SIQ |Canadian Solar Inc.|
-| 199.4% | #1 |  DQ  |DAQO New Energy Corp.|
+| Return % | Rank | Ticker | Full Company Name |
+|----------|------|--------|--------------------|
+| | | AY |Atlantica Sustainable Infrastructure |
+|   |   | SIQ | Canadian Solar Inc. |
+| 199.4% | #1 | DQ | DAQO New Energy Corp.|
 | 129.5% | #3 | ENPH |Enphase Energy Inc.|
-|--------|----| FSLR |First Solar Inc.|
-|--------|----| HASI |Hannon Armstrong Sustainable Infrastruture Capital Inc.|
-|--------|----| JKS  |JinkoSolar Holding Co. Ltd.|
-|--------|----| RUN  |SunRun Inc.|
+| | | FSLR | First Solar Inc.|
+| | | HASI | Hannon Armstrong Sustainable Infrastruture Capital Inc.|
+| | | JKS  | JinkoSolar Holding Co. Ltd.|
+| | | RUN  |SunRun Inc.|
 | 184.5% | #2 | SEDG |SolarEdge Techologies, Inc.|
-|--------|----| SPWR |SunPower Corp.|
-|--------|----| TERP |TerraForm Power Operating, LLC|
-|--------|----| VSLR |Vivint Solar|
+| | | SPWR |SunPower Corp.|
+| | | TERP |TerraForm Power Operating, LLC|
+| | | VSLR |Vivint Solar|
 
 
 From the years 2017 and 2018 for the 12 companies, you can see in the tables below that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on shareholders' stocks. 
 
-![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)  ![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
+![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)<img height="350" hspace="20"/>![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
 
 As signified by cells with a green background, for the year 2017, the Return column has all positive gains in stock price except for TERP (Terraform). It begs the question about what was happening business-wise that would cause 11 out of 12 solar energy companies to post gains. For the top 3 companies, this information was found online.
 
