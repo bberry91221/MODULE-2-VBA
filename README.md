@@ -26,7 +26,7 @@ We collected stock prices across 12 solar energy companies for 2 years (2017 and
 ![how_to_calculate_annual_return_per_stock.PNG](Resources/how_to_calculate_annual_return_per_stock.PNG)
 
 
-***2017 RESULTS***
+***2017 "ANNUAL RETURN" RESULTS***
 
 The results are listed below and are augmented by cell background colors to quickly show GAINS (green cells) and LOSSES (red cells). From the years 2017 and 2018 for the 12 companies, you can see in these tables that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on their shares. 
 
@@ -55,7 +55,7 @@ As mentioned above, we further investigated the huge returns. This fact begs the
 For the "wide" view of stock performance, "Renewable energy once again achieved record increases in capacity in 2017," (from [Green_Tech_Media.com](https://www.greentechmedia.com/articles/read/2017-another-record-busting-year-for-global-renewable-energy-capacity). From another, well-respected source, REN21 is the only global renewable energy community of scientists, governments, NGOs and industrial experts providing insights into the need of renewable energy. They provide up-to-date and peer-reviewed facts, figures and analysis of global developments in technology, policies and markets. Their goal is to enable decision-makers around the world to make the shift to renewable energy happen – now before it is too late. from: [REN21](https://www.ren21.net/about-us/who-we-are/)
 
 
-**#1 - "DQ" (Daqo New Energy Corp.)** is a Chinese company engaged in the manufacture of monocrystalline silicon and polysilicon, primarily for use in solar photovoltaic systems. The company operates a mono-Si and poly-Si manufacturing facility located in Shihezi, Xinjiang Province, China. ... DAQO formerly manufactured silicon wafers at a facility in Chongqing, China (discontinued in 2018) from: [DQ_Wikipedia_Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy).
+**#1 - "DQ" (Daqo New Energy Corp.)** is a Chinese company engaged in the manufacture of monocrystalline silicon and polysilicon, primarily for use in solar photovoltaic systems. The company operates a mono-Si and poly-Si manufacturing facility located in Shihezi, Xinjiang Province, China. ... DAQO formerly manufactured silicon wafers at a facility in Chongqing, China **(discontinued in 2018)** from: [DQ_Wikipedia_Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy).
 
 **#2- SEDG (SolarEdge Technologies, Inc.)** is an American Israeli provider of power optimizer, solar inverter and monitoring systems for photovoltaic arrays.These products aim to increase energy output through module-level Maximum Power Point Tracking (MPPT).[2] Established in 2006, the company has offices in the United States,[3] Germany,[4] Italy, Japan, and Israel. In May 2015, SolarEdge partnered with Tesla Motors[9] for the joint development of a photovoltaic (PV) storage and backup power solution for the residential solar market, based on the Powerwall home and industrial battery packs that were unveiled in April 2015,[10] and quickly received orders to a total value of US$800 million. In October 2018, SolarEdge announced agreements to acquire a major stake in Kokam, a South Korean provider of Lithium-ion battery cells, batteries and energy storage solutions. Using SolarEdge's direct current (DC) optimized inverter and Tesla's automotive-grade battery technology, the solution requires only a single SolarEdge inverter to manage both PV and storage functions. The system is designed for efficient, outdoor installation and includes remote monitoring and troubleshooting to keep operations and maintenance costs low. In October 2020, SolarEdge has partnered with Schneider Electric. This alliance is planned to provide a cohesive electricity environment for installers and device owners, while also accelerating solar installation experience across the region. from [SEDG_Wikipedia_Pages](https://en.wikipedia.org/wiki/SolarEdge).
 
@@ -63,7 +63,40 @@ For the "wide" view of stock performance, "Renewable energy once again achieved 
 
 The lowest performing stock that registered actual losses was **TERP (Terraform)** which is the only company that is not wholly providing equipment or components for solar power. This company is a subsidiary of SunEdison which has had financial troubles (including having to file for Chapter 11) since April 2016. In July 2017, the U.S. Bankruptcy Court approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from [TERP_Wikipedia_Pages](https://en.wikipedia.org/wiki/SunEdison).
 
-***2018 RESULTS***
+***2018 "ANNUAL RETURN" RESULTS***
+
+The results are listed below and are augmented by cell background colors to quickly show GAINS (green cells) and LOSSES (red cells). As said above, 2017 was a great year for solar stocks but 2018 was another story. The turn around is that almost all of the companies in 2018, they accummulated a loss in their stock prices es for the year.
+
+From the years 2017 and 2018 for the 12 companies, you can see in these tables that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on their shares. 
+
+![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)<img height="350" hspace="20"/>![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
+
+
+The table below gives the ticker names, full names of companies of the only companies who showed gains in the 2018 table above.  
+
+| Return % | Rank | Ticker | Full Company Name |
+|----------|------|--------|--------------------|
+| | | AY |Atlantica Sustainable Infrastructure |
+| |  | SIQ | Canadian ASolar Inc. |
+| |  | DQ | DAQO New Energy Corp.|
+| 81.9% | #2 | ENPH |Enphase Energy Inc.|
+| | | FSLR | First Solar Inc.|
+| | | HASI | Hannon Armstrong Sustainable Infrastruture Capital Inc.|
+| | | JKS  | JinkoSolar Holding Co. Ltd.|
+| 84.0% | #1 | RUN  |SunRun Inc.|
+| | | SEDG |SolarEdge Techologies, Inc.|
+| | | SPWR |SunPower Corp.|
+| | | TERP |TerraForm Power Operating, LLC
+| | | VSLR |Vivint Solar|
+
+
+As mentioned above, we further investigated why there was such a big drop in returns. Several things happened to the market in 2008, including the almost-crash caused by the government relaxing requirements on home loans which caused foreclosures across the public and banks/credit unions failing in the US. There were 2 companies who fared better than the 10 other companies. This information was found online and is paraphrased below:
+
+
+
+### B. How the Analyses Were Completed: Annual Total Volume of Stocks Traded
+
+You can see the number for total Volume of stock traded that the 3 companies enjoying very high returns are not on this list as being traded more than the higher top 3.
 
 
 ## Summary - TO DO: In a summary statement, address the following questions.
@@ -79,9 +112,8 @@ There are very clear choices that will, based on the last 2 years of data, produ
  11 other companies with a similar business focus, i.e., implementation and innovation of solar panel components.
 
 
-## Results 
-We collected stock prices across 12 solar energy companies for 2 years (2017 and 2018). The returns were calculated by using the Closing stock price for each day of trading for each of these years. Here is the portion of the macro code which calculated these numbers.
-![how to calculate annual return per stock.PNG](Resources/how to calculate annual return per stock.PNG)
+## Results COPY OUT******************8
+
 
 Also, we were able to sum up the Total Daily Volume for each stock on days of trading for 2017 and 2018. Please see the finished tables below showing the annual return as well as the Total Daily Volume for each stock. Please note the stocks that are colored green. This means the return had increase through the year. The red cells show a loss in the price of the stocks.
 ![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)  ![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
