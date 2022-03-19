@@ -16,7 +16,7 @@ As mentioned above, there are three characteristics we will be analyzing across 
 
 1. The Total Return of the stocks was collected daily and included in the provided database. Taking each price at the opening of trading and subtracting the ending price at the end of the day was compiled across the entire year for each stock. This number was converted to a percentage and placed in the tables below for each year showing the gains (cell background is green) and losses (cell background is red) for each company. 
 2. Also, the other charactertistic we focused on was on the Total Volume of trades summed up by each company for each year to mark the interest in the investor pool out in the general, potential stockholders' public.
-3. As an aside, We also need to see the performance of the analization macros by 2 methods of calculation used, i.e., running the calculations linearly (calculating each company's numbers, one at a time) and using a method with embedded arrays to calculate each characteristic all at once across all 12 companies. This will help us develop another macro with even more years of data if needed to further analyize what we are seeing across these companies.
+3. As an aside, We also need to see the performance of the analization macros by 2 methods of calculation used, i.e., running the calculations linearly (calculating each company's numbers, one at a time) and using a method with embedded arrays to calculate each characteristic all at once across all 12 companies. This will help us develop another macro with even more years of data if needed to further analyize what we are seeing across these companies.1
 
 
 ### A. How the Analyses Were Completed: Daily Closing Stock Prices
