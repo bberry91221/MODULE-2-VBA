@@ -20,12 +20,15 @@ As mentioned above, there are three characteristics we will be analyzing across 
 
 ### A. How the Analyses Were Completed: Daily Closing Stock Prices
 
-We collected stock prices across 12 solar energy companies for 2 years (2017 and 2018). The returns were calculated by subtracting the Closing price from the Closing stock price for each day of trading for each of these years. Here is the portion of the macro code which calculated these numbers.
+We collected stock prices across 12 solar energy companies for 2 years (2017 and 2018). The calculations to obtain the Annual Return were based on subtracting the Closing price from the previous day from the Closing stock price from the current day of trading for each of these years. Here is the portion of the macro code which calculated these numbers (Note: there is an index counter at play in order to keep track of each days' calculations. Also, the hard-coded "6" is actually where the Closing prices are located in the database.)
 
 ![how_to_calculate_annual_return_per_stock.PNG](Resources/how_to_calculate_annual_return_per_stock.PNG)
 
+The results are listed below and are augmented by cell background colors to quickly show GAINS (green cells) and LOSSES (red cells). From the years 2017 and 2018 for the 12 companies, you can see in these tables that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on shareholders' stocks. 
 
-The companies that were chosen to compare to DQ are listed below together with their rank in highest Total Returns for 2017.
+![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)<img height="350" hspace="20"/>![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
+
+The table below gives the ticker names, full names of companies and top 3 highest returns in this list.  
 
 | Return % | Rank | Ticker | Full Company Name |
 |----------|------|--------|--------------------|
@@ -43,54 +46,20 @@ The companies that were chosen to compare to DQ are listed below together with t
 | | | VSLR |Vivint Solar|
 
 
-From the years 2017 and 2018 for the 12 companies, you can see in the tables below that 2017 was a banner year for solar power companies. Almost all of the companies enjoyed a positive total return on shareholders' stocks. 
-
-![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)<img height="350" hspace="20"/>![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
-
-As signified by cells with a green background, for the year 2017, the Return column has all positive gains in stock price except for TERP (Terraform). It begs the question about what was happening business-wise that would cause 11 out of 12 solar energy companies to post gains. For the top 3 companies, this information was found online.
+As mentioned above, we further investigated the huge returns. This fact begs the question about what was happening business-wise that would cause 11 out of 12 solar energy companies to post such high gains. For the top 3 companies, this information was found online and is paraphrased below:
 
 For the "wide" view of stock performance, "Renewable energy once again achieved record increases in capacity in 2017," (from [Green_Tech_Media.com](https://www.greentechmedia.com/articles/read/2017-another-record-busting-year-for-global-renewable-energy-capacity). From another, well-respected source, REN21 is the only global renewable energy community of scientists, governments, NGOs and industrial experts providing insights into the need of renewable energy. They provide up-to-date and peer-reviewed facts, figures and analysis of global developments in technology, policies and markets. Their goal is to enable decision-makers around the world to make the shift to renewable energy happen – now before it is too late. from: [REN21](https://www.ren21.net/about-us/who-we-are/)
 
-The worst performing stock was with **Terraform** but they were also the only company that is not wholly providing equipment or components for solar power. This company is a subsidiary of SunEdison which has had financial troubles since April 2016 (including having to file for Chapter 11 bankruptcy) . In July 2017, the U.S. Bankruptcy Court[120] approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from [SunEdison_Wikipedia](https://en.wikipedia.org/wiki/SunEdison).
 
+**#1 - "DQ" (Daqo New Energy Corp.)** is a Chinese company engaged in the manufacture of monocrystalline silicon and polysilicon, primarily for use in solar photovoltaic systems. The company operates a mono-Si and poly-Si manufacturing facility located in Shihezi, Xinjiang Province, China. ... DAQO formerly manufactured silicon wafers at a facility in Chongqing, China (discontinued in 2018) from: [DQ Wikipedia Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy).
 
+**#2- SEDG (SolarEdge Technologies, Inc.)** is an American Israeli provider of power optimizer, solar inverter and monitoring systems for photovoltaic arrays.These products aim to increase energy output through module-level Maximum Power Point Tracking (MPPT).[2] Established in 2006, the company has offices in the United States,[3] Germany,[4] Italy, Japan, and Israel. In May 2015, SolarEdge partnered with Tesla Motors[9] for the joint development of a photovoltaic (PV) storage and backup power solution for the residential solar market, based on the Powerwall home and industrial battery packs that were unveiled in April 2015,[10] and quickly received orders to a total value of US$800 million. In October 2018, SolarEdge announced agreements to acquire a major stake in Kokam, a South Korean provider of Lithium-ion battery cells, batteries and energy storage solutions. Using SolarEdge's direct current (DC) optimized inverter and Tesla's automotive-grade battery technology, the solution requires only a single SolarEdge inverter to manage both PV and storage functions. The system is designed for efficient, outdoor installation and includes remote monitoring and troubleshooting to keep operations and maintenance costs low. In October 2020, SolarEdge has partnered with Schneider Electric. This alliance is planned to provide a cohesive electricity environment for installers and device owners, while also accelerating solar installation experience across the region. from https://en.wikipedia.org/wiki/SolarEdge.
 
-Daqo dropped over 63% in 2018—yikes! Steve will definitely want to offer some better stocks to his parents.
+**#3 - ENPH (Enphase Energy Inc.)** is an American NASDAQ-listed energy technology company headquartered in Fremont, California. Enphase designs and manufactures software-driven home energy solutions that span solar generation, home energy storage and web-based monitoring and control. Enphase has shipped about thirty million solar microinverters, primarily into the residential and commercial markets in North America, Europe and Australia. [3] Microinverters convert the direct current power from the solar panel (DC) directly into grid-compatible alternating current (AC) for use or export.[4] Enphase was the first company to successfully commercialise the microinverter on a wide scale, and remains the market leader in their production. 2017 began the introduction of the new IQ architecture, which uses a new cabling system. Two conductors, down from four, are integrated and compliant with electrical codes due to the use of GFCI, no need for a neutral and no conductive materials in the enclosure. The initial products were the IQ6 and IQ6+, followed in 2018 by the IQ7. In 2019 the IQ8 series will enable continuous power production during grid outages during daytime without the need for batteries. from: https://en.wikipedia.org/wiki/Enphase_Energy
 
-2017 stock performance
+The lowest performing stock that registered actual losses was **TERP (Terraform)** which is the only company that is not wholly providing equipment or components for solar power. 
 
-AY-Atlantica Sustainable Infrastructure
-CSIQ-Canadian Solar Inc.
-#1 - DQ-DAQO New Energy Corp. 199.4% return! 2017
-#3 - ENPH-Enphase Energy Inc. 129.5% 2017
-FSLR-First Solar Inc.
-HASI-Hannon Armstrong Sustainable Infrastruture Capital Inc.
-JKS-JinkoSolar Holding Co. Ltd.
-RUN-SunRun Inc.
-#2 - SEDG-SolarEdge Techologies, Inc. 184.5% return 2017
-SPWR-SunPower Corp.
-TERP-TerraForm Power Operating, LLC
-VSLR-Vivint Solar
-
-The Return column has all positive gains in stock price except for TERP (Terraform). It begs the question about what was happening business-wise that would cause 11 out of 12 solar energy companies to post gains. For the top 3 companies, this information was found online.
-
-**Terraform** - only company that is not wholly providing equipment or components for solar power. 
-
-![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG) ![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
-timers??
-This company is a subsidiary of SunEdison which has had financial troubles (including having to file for Chapter 11) since April 2016. In July 2017, the U.S. Bankruptcy Court[120] approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from https://en.wikipedia.org/wiki/SunEdison
-
-"Renewable energy once again achieved record increases in capacity in 2017," (from https://www.greentechmedia.com/articles/read/2017-another-record-busting-year-for-global-renewable-energy-capacity)
-
-REN21 is the only global renewable energy community of actors from science, governments, NGOs and industry. We provide up-to-date and peer-reviewed facts, figures and analysis of global developments in technology, policies and markets. Our goal: enable decision-makers to make the shift to renewable energy happen – now. from: https://www.ren21.net/about-us/who-we-are/
-
-#1 - "DQ" (Daqo New Energy Corp.) is a Chinese company engaged in the manufacture of monocrystalline silicon and polysilicon, primarily for use in solar photovoltaic systems. The company operates a mono-Si and poly-Si manufacturing facility located in Shihezi, Xinjiang Province, China. ... DAQO formerly manufactured silicon wafers at a facility in Chongqing, China (discontinued in 2018) from: [DQ Wikipedia Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy).
-
-#2- SEDG (SolarEdge Technologies, Inc.) is an American Israeli provider of power optimizer, solar inverter and monitoring systems for photovoltaic arrays.These products aim to increase energy output through module-level Maximum Power Point Tracking (MPPT).[2] Established in 2006, the company has offices in the United States,[3] Germany,[4] Italy, Japan, and Israel. In May 2015, SolarEdge partnered with Tesla Motors[9] for the joint development of a photovoltaic (PV) storage and backup power solution for the residential solar market, based on the Powerwall home and industrial battery packs that were unveiled in April 2015,[10] and quickly received orders to a total value of US$800 million. In October 2018, SolarEdge announced agreements to acquire a major stake in Kokam, a South Korean provider of Lithium-ion battery cells, batteries and energy storage solutions. Using SolarEdge's direct current (DC) optimized inverter and Tesla's automotive-grade battery technology, the solution requires only a single SolarEdge inverter to manage both PV and storage functions. The system is designed for efficient, outdoor installation and includes remote monitoring and troubleshooting to keep operations and maintenance costs low. In October 2020, SolarEdge has partnered with Schneider Electric. This alliance is planned to provide a cohesive electricity environment for installers and device owners, while also accelerating solar installation experience across the region. from https://en.wikipedia.org/wiki/SolarEdge.
-
-ENPH-Enphase Energy Inc. Enphase Energy is an American NASDAQ-listed energy technology company headquartered in Fremont, California. Enphase designs and manufactures software-driven home energy solutions that span solar generation, home energy storage and web-based monitoring and control. Enphase has shipped about thirty million solar microinverters, primarily into the residential and commercial markets in North America, Europe and Australia.[3] Microinverters convert the direct current power from the solar panel (DC) directly into grid-compatible alternating current (AC) for use or export.[4] Enphase was the first company to successfully commercialise the microinverter on a wide scale, and remains the market leader in their production. 2017 began the introduction of the new IQ architecture, which uses a new cabling system. Two conductors, down from four, are integrated and compliant with electrical codes due to the use of GFCI, no need for a neutral and no conductive materials in the enclosure. The initial products were the IQ6 and IQ6+, followed in 2018 by the IQ7. In 2019 the IQ8 series will enable continuous power production during grid outages during daytime without the need for batteries. from: https://en.wikipedia.org/wiki/Enphase_Energy
-
-
+This company is a subsidiary of SunEdison which has had financial troubles (including having to file for Chapter 11) since April 2016. In July 2017, the U.S. Bankruptcy Court approved SunEdison's bankruptcy-exit plan and it eventually emerged from bankruptcy December 29, 2017. "TerraForm Power is a global renewable energy project development company. It owns and operates solar and wind generation assets serving utility, commercial, and residential customers. It owns and operates over 200 solar power projects. Its scope extends to other clean power generation such as natural gas, geothermal, hydro-electricity, and hybrid power generation." from https://en.wikipedia.org/wiki/SunEdison
 
 ## Summary - TO DO: In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
