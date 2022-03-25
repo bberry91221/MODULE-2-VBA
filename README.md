@@ -64,12 +64,12 @@ For the "wide" view of stock performance, "Renewable energy once again achieved 
 
 ***2018 "ANNUAL RETURN" RESULTS***
 
-The results are listed below and are augmented by cell background colors to quickly show GAINS (green cells) and LOSSES (red cells). As said above, 2017 was a great year for solar stocks but 2018 was another story. The turn around is that almost all of the companies in 2018 accummulated a loss in their stock prices es for the year. It must have been a real "slap in the face" to see the results of 2018 trading!
+The results are listed below and are augmented by cell background colors to quickly show GAINS (green cells) and LOSSES (red cells). As said above, 2017 was a great year for solar stocks but 2018 was another story. The turn around is that almost all of the companies in 2018 accummulated a loss in their stock prices for the year. It must have been a real "slap in the face" to see the results of 2018 trading! See the tables below.
 
 ![2017_Calc_Return.PNG](Resources/2017_Calc_Return.PNG)<img height="350" hspace="20"/>![2018_Calc_Return.PNG](Resources/2018_Calc_Return.PNG)
 
 
-The table below gives the ticker names, full names of companies of the only companies who showed gains in the 2018 table above.  
+The table below gives the rank of the top 2 positive returns together with their ticker names and their full company names of the 12 selected companies analyzed across 2017 and 2018.  
 
 | Return % | Rank | Ticker | Full Company Name |
 |----------|------|--------|--------------------|
@@ -89,11 +89,12 @@ The table below gives the ticker names, full names of companies of the only comp
 
 As mentioned above, we further investigated why there was such a big drop in returns compared to 2018. Several things happened to the market in 2018. "...Stocks plummeted 20% in a move that caught solar investors off guard. The plunge was caused by China cutting solar incentives for the rest of 2018, which could reduce the country's solar installations by 30%-40% in 2018...a **big deal** considering China installed about half of all solar panels worldwide in 2018." From: [https://www.fool.com/investing/2018/06/12/why-first-solars-stock-dropped-20-in-a-week.aspx](https://www.fool.com/investing/2018/06/12/why-first-solars-stock-dropped-20-in-a-week.aspx) However, there are 2 companies (ranked in the above table) who fared better than the 10 other companies. This information was found online and is paraphrased below:
 
-**#1 - RUN (Sunrun Inc.)** RUN had the highest return (84.0%). They are "an American provider of residential solar panels and home batteries, headquartered in San Francisco, California. In July 2018, Sunrun expanded their solar and battery service to the island of Puerto Rico. With operations in 23 states, the District of Columbia, and Puerto Rico, Sunrun became the largest solar, storage and energy services company in America, surpassing Solar City". From: [Sunrun_Wikipedia_pages](https://en.wikipedia.org/wiki/Sunrun) 
+**#1 - RUN (Sunrun Inc.)** RUN had the highest return (84.0%). They are "an American provider of residential solar panels and home batteries, headquartered in San Francisco, California. In July 2018, Sunrun expanded their solar and battery service to the island of Puerto Rico. With operations in 23 states, the District of Columbia, and Puerto Rico, Sunrun became the largest solar, storage and energy services company in America, surpassing Solar City". From: [Sunrun_Wikipedia_
+pages](https://en.wikipedia.org/wiki/Sunrun) 
 
 **#2 - ENPH (Enphase Energy Inc.)**  ENPH had the second highest return (81.9%) across all 12 companies examined herein. "Enphase Energy in 2017 began the introduction of the new IQ architecture, which uses a new cabling system. Two conductors, down from four, are integrated and compliant with electrical codes due to the use of GFCI, no need for a neutral and no conductive materials in the enclosure. The initial products were the IQ6 and IQ6+, followed in 2018 by the IQ7. In 2019 the IQ8 series will enable continuous power production during grid outages during daytime without the need for batteries." From: [Enphase_Wikipedia_Pages](https://en.wikipedia.org/wiki/Enphase_Energy) 
 
-At the bottom of the pile is DQ (DAQO New Energy Corp.) which is the subject of this analysis. They show a loss of over 63% in 2018! As noted above in the 2017 returns paragraph for DQ, this is a Chinese company. In the business-climate analysis for 2018, China discontinued an incentive for the manufacture of solar photovoltaic systems. One of DQ's major plants shutdown the manufacture of this component in 2018 which negatively impacted stock returns. From: [DQ_Wikipedia_Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy)
+At the bottom of the pile is DQ (DAQO New Energy Corp.) which is the subject of this analysis. They show a loss of almost 63% in 2018! As noted above in the 2017 returns paragraph for DQ, this is a Chinese company. In the business-climate analysis for 2018, China discontinued an incentive for the manufacture of solar photovoltaic systems. One of DQ's major plants shutdown the manufacture of this component in 2018 which negatively impacted stock returns. From: [DQ_Wikipedia_Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy)
 
 
 
@@ -101,7 +102,8 @@ At the bottom of the pile is DQ (DAQO New Energy Corp.) which is the subject of 
 
 ***2017 "VOLUME" RESULTS***
 
-You can see the number for total Volume of stock traded that the 3 companies enjoying very high returns are not on this list as being traded more than the higher top 3.
+You can see the number for total Volume of stock traded that the 3 companies enjoying very high volumes are not on this list as being traded more than the higher top 3.
+
 
 
 ## Summary - TO DO: In a summary statement, address the following questions.
