@@ -122,7 +122,7 @@ It appears at the outset that Steve's parents looked at the year-end return on D
 (a) when new data (or years) will be added, due to the structure of the database, the numbers will have to be placed in a separate tab by year which will increase the size of the database file; and
 (b) a higher rates processor may be needed with the more data that is added. See the figures below to see differing run times for each year of data.
 
-![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG)<img height="350" hspace="20"/>![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
+![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG)<img height="75" hspace="20"/>![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
 
 The differing times can be explained by my laptop "learning" the macro run after the first attempt (2017) and minimizing statements' running in the next year. Also, consider these other pieces of information about the environment that this macro ran on: (a) the age of my laptop, i.e., a 2015 Dell laptop, (b) lower-capacity processor on the motherboard of the laptop, and (c) the number of applications running on the laptop impacting the total available memory to aid in running these calculations. Yes, you can (by hand) disable those applications from running in the background but you would not necessarily want to disable some, i.e., Norton Antivirus and Windows checking for security updates. (These two are memory hobs!)
 
