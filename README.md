@@ -12,10 +12,10 @@ Steve's parents have been investing since 2017 in a "green" company that they fe
 
 
 ## II. Results
-As mentioned above, there are three characteristics we will be analyzing across all 12 companies:
+As mentioned above, there are two characteristics we will be analyzing across all 12 companies:
 
-1. The Total Return of the stocks was collected daily and included in the provided database. Taking each price at the opening of trading and subtracting the ending price at the end of the day was compiled across the entire year for each stock. This number was converted to a percentage and placed in the tables below for each year showing the gains (cell background is green) and losses (cell background is red) for each company. 
-2. As an aside, We also need to see the performance of the analization macros by 2 methods of calculation used, i.e., running the calculations linearly (calculating each company's numbers, one at a time) and using a method with embedded arrays to calculate each characteristic all at once across all 12 companies. This will help us develop another macro with even more years of data if needed to further analyize what we are seeing across these companies.
+1. The Total Return of the stocks was collected daily and included in the provided database. Taking each price at the end of trading and subtracting the next day's ending price at the end of the day was compiled across the entire year for each stock. This number was converted to a percentage and placed in the tables below for each year showing the gains (cell background is green) and losses (cell background is red) for each company. 
+2. As an aside, We also need to see the performance of the analization macros by 2 methods of calculation used, i.e., running the calculations linearly (calculating each company's numbers, one at a time) and using a method with embedded arrays to calculate each characteristic all at once across all 12 companies. This will help us develop another macro with even more years of data if needed to further analyze what we are seeing across these companies.
 
 
 ### A. How the Analyses Were Completed: Daily Closing Stock Prices
@@ -103,36 +103,34 @@ At the bottom of the pile is DQ (DAQO New Energy Corp.) which is the subject of 
 
 There are very clear choices that will, based on the last 2 years of data, produce a nice return for Steve's parents.
 
-** IS DQ a good company to invest in? **
+***IS DQ a good company to invest in?***
 It appears at the outset that Steve's parents looked at the year-end return on DQ's stocks and decided to invest in this company. This was, of course, the company with the highest return compared to the other 11 companies.  However, if they had continued to study their options, they would have seen an almost 63% drop in DQ's return in 2018.
 
 
-** What is the general makeup of all other companies providing good returns? **
+***What is the general makeup of all other companies providing good returns?***
 1. It appears that the better faring companies who had a wider sales area (see RUN in "2018 Results") did better in the long run across the 2 years of data we had.
-
 2. Companies who concentrated on manufacturing and distributing components of solar panels appeared to have a better advantage to sail through the storm of 2018 (see ENPH in "2018 Results").
 
 
 ### Recommendations concerning the Refactoring Macro Code in this File ###
 
-** What are the advantages or disadvantages of using refactoring macro code? **
+***What are the advantages or disadvantages of using refactoring macro code?***
 1. Advantages toward refactoring code lay in running analysis on arrays rather than individual company data. 
 (a) It will minimize the run time of the macro by running all analysis tasks at once rather than individually; and 
-(b) it will be easier to add more years of data across the same companies by re-using macro code by using "For" loops based on how the macro discovers the total row length of the database.
-
+(b) it will be easier to add more years of data across the same companies by re-using macro code with the used of "For" loops based on how the macro discovers the total row length of the indivudal years' databases.
 2. Cons against using refactoring code to run this analysis is:
-(a) when new data (or years) will be added, due to the structure of the database, the numbers will have to be placed in a separate tab by year; and
-(b) using arrays rather than running individual company data throughout the years' database table is seen in the timer screenshots below:
+(a) when new data (or years) will be added, due to the structure of the database, the numbers will have to be placed in a separate tab by year which will increase the size of the database file; and
+(b) a higher rates processor may be needed with the more data that is added. See the figures below to see differing run times for each year of data.
 
 ![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG)<img height="350" hspace="20"/>![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
 
-These poor runtime results can be explained by (a) the age of the laptop I am currently using, i.e., a 2015 Dell laptop, (b) lower-capacity processor on the motherboard of the laptop, and (c) the number of applications running on the laptop impacting the total available memory to aid in running these calculations. Yes, you can (by hand) disable those applications from running in the background but you would not necessarily want to disable some, i.e., Norton Antivirus and Windows checking for security updates.
+The differing times can be explained by my laptop "learning" the macro run after the first attempt (2017) and minimizing statements' running in the next year. Also, consider these other pieces of information about the environment that this macro ran on: (a) the age of my laptop, i.e., a 2015 Dell laptop, (b) lower-capacity processor on the motherboard of the laptop, and (c) the number of applications running on the laptop impacting the total available memory to aid in running these calculations. Yes, you can (by hand) disable those applications from running in the background but you would not necessarily want to disable some, i.e., Norton Antivirus and Windows checking for security updates. (These two are memory hobs!)
 
 The overall recommendation based on the 2 years of data and the macro composition is to:
 1. Obtain data across all similar solar power companies, i.e., grouped by improvements in manufacturing components and by companies who have the biggest sales areas.
 2. Widen the scope across several more years and observe the rate of returns to find similarities.
 3. Diversify the investment across several companies rather than using the "Put all your eggs in one basket" philosophy.
-4. Watch the climate of the solar industry by obtaining the newsletters quoted at the beginning of this article. If needed, pull investments out when or if reports are being made of a big downturn.
+4. Watch the climate of the solar industry by obtaining the newsletters quoted at the beginning of this article. If needed, pull investments out when or if reports are predicting poor returns and/or a coming big downturn.
 
-These steps will only improve the knowledge of solar power and the agileness of the investors to "when to hold 'em and when to fold 'em"!!
+These steps will only improve the knowledge of solar power and the agileness of the investors to ... ***"Know when to hold 'em and when to fold 'em"!!***
 
