@@ -105,6 +105,7 @@ See the figures below to see differing run times for each year of data.
 Before revising the current macro to run on the database(s), the previous macro collected the two datapoints separately for each company, i.e., first obtaining the Annual Return for each company, one at a time, and then, separately summing up the total annual volume of stock sales. The runtime was much higher than the above in this calculation method.
 
 
+
 ## III. Summary ##
 
 ### Recommendation to Steve on Informing His Parents of the Data Analysis Outcomes ###
