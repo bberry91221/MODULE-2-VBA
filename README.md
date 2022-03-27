@@ -96,8 +96,16 @@ pages](https://en.wikipedia.org/wiki/Sunrun)
 Of the remaining companies, the one with the least amount of loss was SolarEdge which with a 7.8% drop in their returns for 2018. Impacting their business plans was the announcement in October 2018 agreements to acquire a major stake in Kokam, a South Korean provider of Lithium-ion battery cells, batteries and energy storage solutions.
 At the bottom of the pile is DQ (DAQO New Energy Corp.) which is the subject of this analysis. They show a loss of almost 63% in 2018! As noted above in the 2017 returns paragraph for DQ, this is a Chinese company. In the business-climate analysis for 2018, China discontinued an incentive for the manufacture of solar photovoltaic systems. One of DQ's major plants shutdown the manufacture of this component in 2018 which negatively impacted stock returns. From: [DQ_Wikipedia_Pages](https://en.wikipedia.org/wiki/Daqo_New_Energy)
 
+### B. How the Analyses Were Completed: Runtimes for Re-factorer Analysis Macro ###
 
-## Summary ##
+See the figures below to see differing run times for each year of data.
+
+![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG)<img height="75" hspace="20"/>![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
+
+Before revising the current macro to run on the database(s), the previous macro collected the two datapoints separately for each company, i.e., first obtaining the Annual Return for each company, one at a time, and then, separately summing up the total annual volume of stock sales. The runtime was much higher than the above in this calculation method.
+
+
+## III. Summary ##
 
 ### Recommendation to Steve on Informing His Parents of the Data Analysis Outcomes ###
 
